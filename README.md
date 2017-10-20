@@ -57,6 +57,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/nanokit-card.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install nanokit-card
 # OR
