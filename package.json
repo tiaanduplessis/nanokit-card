@@ -1,0 +1,32 @@
+{
+    "name": "nanokit-card",
+    "version": "1.0.0",
+    "description": "Card component for React Native",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/nanokit-card",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/nanokit-card",
+    "bugs": "https://github.com/tiaanduplessis/nanokit-card",
+    "main": "index.js",
+    "files": ["index.js"],
+    "scripts": {
+        "test": "npm run format",
+        "format": "prettier-standard index.js",
+        "start": "npm run test",
+        "precommit": "npm test"
+    },
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "prettier-standard": "^7.0.3"
+    },
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "dependencies": {
+        "prop-types": "^15.6.0"
+    }
+}
